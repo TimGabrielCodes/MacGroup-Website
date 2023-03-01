@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "HelveticaNow";
+  src: url("../public/fonts/HelveticaNowText-Black.ttf") format("truetype");
+  src: url("../public/fonts/HelveticaNowText-Medium.ttf") format("truetype");
+  src: url("../public/fonts/HelveticaNowText-Light.ttf") format("truetype");
+}
+
+* {
+  user-select: none;
+}
+
+body {
+  font-family: HelveticaNow;
+  background-color: #e7e7e7;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(53, 53, 53);
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 214, 214);
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
